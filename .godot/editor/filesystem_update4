@@ -1,1 +1,6 @@
+res://world.tscn
+res://World/Grass.tscn
 res://World/Bush.tscn
+res://World/Grass.gd
+res://Effects/grass_effect.tscn
+res://Effects/GrassEffect.gd
