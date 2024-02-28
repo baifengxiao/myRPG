@@ -4,8 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76fc6d64-017f-4d32-bab9-ca2bf4814af6" name="更改" comment="攻击功能">
+    <list default="true" id="76fc6d64-017f-4d32-bab9-ca2bf4814af6" name="更改" comment="添加草的动画，攻击播放草的摧毁特效">
+      <change beforePath="$PROJECT_DIR$/.godot/editor/Bush.tscn-editstate-5122e6aec51f6cc110efdb2db785e85f.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/Bush.tscn-editstate-5122e6aec51f6cc110efdb2db785e85f.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/Grass.tscn-editstate-d9569b14315d25d44e0cedb32f49aa1c.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/Grass.tscn-editstate-d9569b14315d25d44e0cedb32f49aa1c.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/create_recent.Node" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/create_recent.Node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/editor_layout.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/editor_layout.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache8" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_update4" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_update4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/grass_effect.tscn-editstate-d05eab368670f4260bd982e9d0b71084.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/grass_effect.tscn-editstate-d05eab368670f4260bd982e9d0b71084.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/player.tscn-editstate-d267b47f7e81a3258979164d56d0d9c2.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/player.tscn-editstate-d267b47f7e81a3258979164d56d0d9c2.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/player.tscn-folding-d267b47f7e81a3258979164d56d0d9c2.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/player.tscn-folding-d267b47f7e81a3258979164d56d0d9c2.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/recent_dirs" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/recent_dirs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/script_editor_cache.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/script_editor_cache.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/world.tscn-editstate-76e0adcbc83681695885bae615f516ae.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/world.tscn-editstate-76e0adcbc83681695885bae615f516ae.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/player.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Player/player.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/World/Grass.gd" beforeDir="false" afterPath="$PROJECT_DIR$/World/Grass.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/World/Grass.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/World/Grass.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/world.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/world.tscn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +73,8 @@
       <workItem from="1708234252950" duration="122000" />
       <workItem from="1708236453569" duration="8000" />
       <workItem from="1708236503694" duration="9000" />
+      <workItem from="1708551864606" duration="427000" />
+      <workItem from="1709154275828" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="回去的备份">
       <created>1708103536809</created>
@@ -71,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708183968668</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加草的动画，攻击播放草的摧毁特效">
+      <option name="closed" value="true" />
+      <created>1708551947175</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708551947175</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="回去的备份" />
     <MESSAGE value="攻击功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="攻击功能" />
+    <MESSAGE value="添加草的动画，攻击播放草的摧毁特效" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加草的动画，攻击播放草的摧毁特效" />
   </component>
 </project>

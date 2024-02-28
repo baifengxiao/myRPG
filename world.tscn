@@ -2426,3 +2426,9 @@ position = Vector2(184, 24)
 
 [node name="Sprite2D6" parent="." instance=ExtResource("7_5fha8")]
 position = Vector2(192, 104)
+
+[node name="Sprite2D7" parent="." instance=ExtResource("7_5fha8")]
+position = Vector2(32, 80)
+
+[node name="Sprite2D8" parent="." instance=ExtResource("7_5fha8")]
+position = Vector2(64, 152)

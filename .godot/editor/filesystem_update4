@@ -1,6 +1,8 @@
+res://Effects/grass_effect.tscn
+res://World/Grass.gd
 res://world.tscn
 res://World/Grass.tscn
+res://Hurtbox&Hitbox/hitbox.tscn
+res://Hurtbox&Hitbox/hurtbox.tscn
 res://World/Bush.tscn
-res://World/Grass.gd
-res://Effects/grass_effect.tscn
-res://Effects/GrassEffect.gd
+res://Player/player.tscn
