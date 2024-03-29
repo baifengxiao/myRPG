@@ -2368,6 +2368,7 @@ texture = ExtResource("5_iptyg")
 
 [sub_resource type="TileSet" id="TileSet_wt8i8"]
 physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 0
 terrain_set_0/mode = 0
 terrain_set_0/terrain_0/name = "Cliff"
 terrain_set_0/terrain_0/color = Color(1, 0, 0, 1)
@@ -2432,3 +2433,6 @@ position = Vector2(32, 80)
 
 [node name="Sprite2D8" parent="." instance=ExtResource("7_5fha8")]
 position = Vector2(64, 152)
+
+[node name="Sprite2D9" parent="." instance=ExtResource("7_5fha8")]
+position = Vector2(192, 32)

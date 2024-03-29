@@ -16,6 +16,7 @@ script = ExtResource("2_me0a8")
 metadata/_edit_group_ = true
 
 [node name="Hurtbox" parent="." instance=ExtResource("3_5tmh1")]
+collision_mask = 8
 
 [node name="CollisionShape2D" parent="Hurtbox" index="0"]
 position = Vector2(8, 8)

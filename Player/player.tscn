@@ -515,6 +515,7 @@ graph_offset = Vector2(-2.4648, 53.7992)
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mqdvu"]
 
 [node name="Player" type="CharacterBody2D"]
+collision_layer = 2
 script = ExtResource("1_wkf4e")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -549,6 +550,7 @@ gizmo_extents = 8.0
 
 [node name="SwordHitBox" parent="HitboxPivot" instance=ExtResource("3_nrqmu")]
 position = Vector2(15, 0)
+collision_mask = 8
 
 [node name="CollisionShape2D" parent="HitboxPivot/SwordHitBox" index="0"]
 shape = SubResource("CapsuleShape2D_mqdvu")
