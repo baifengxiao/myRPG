@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76fc6d64-017f-4d32-bab9-ca2bf4814af6" name="更改" comment="添加草的动画，攻击播放草的摧毁特效">
-      <change beforePath="$PROJECT_DIR$/.godot/editor/Bush.tscn-editstate-5122e6aec51f6cc110efdb2db785e85f.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/Bush.tscn-editstate-5122e6aec51f6cc110efdb2db785e85f.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/Grass.tscn-editstate-d9569b14315d25d44e0cedb32f49aa1c.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/Grass.tscn-editstate-d9569b14315d25d44e0cedb32f49aa1c.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.godot/shader_cache/CanvasShaderRD/f7cb887512e3f10010900699c3157bd93c8889076656a7f10b9d2d5673de93a3/9bcac378d4e61e619a04bca2518f348d5c571569.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache8" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_update4" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_update4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/grass_effect.tscn-editstate-d05eab368670f4260bd982e9d0b71084.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/grass_effect.tscn-editstate-d05eab368670f4260bd982e9d0b71084.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/player.tscn-editstate-d267b47f7e81a3258979164d56d0d9c2.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/player.tscn-editstate-d267b47f7e81a3258979164d56d0d9c2.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/script_editor_cache.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/script_editor_cache.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/world.tscn-editstate-76e0adcbc83681695885bae615f516ae.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/world.tscn-editstate-76e0adcbc83681695885bae615f516ae.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.md5" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/World/Grass.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/World/Grass.tscn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,28 +26,31 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2cSSUGr3kLRJRAmB9AMuYCBNK3H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -74,6 +69,7 @@
       <workItem from="1709154275828" duration="911000" />
       <workItem from="1711688840927" duration="41000" />
       <workItem from="1711707028876" duration="96000" />
+      <workItem from="1712603878992" duration="861000" />
     </task>
     <task id="LOCAL-00001" summary="回去的备份">
       <created>1708103536809</created>
@@ -116,6 +112,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="回去的备份" />
     <MESSAGE value="攻击功能" />
     <MESSAGE value="添加草的动画，攻击播放草的摧毁特效" />
