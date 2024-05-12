@@ -1,5 +1,6 @@
 res://Player/player.tscn
 res://World/Grass.gd
+res://Player/Player.gd
 res://World/Grass.tscn
 res://Hurtbox&Hitbox/hitbox.tscn
 res://Hurtbox&Hitbox/hurtbox.tscn
