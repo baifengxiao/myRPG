@@ -1,10 +1,13 @@
-res://Enemies/bat.tscn
+res://stats.tscn
 res://World/Grass.gd
+res://stats.gd
+res://Enemies/bat.tscn
 res://Player/player.tscn
+res://Enemies/bat.gd
 res://World/Grass.tscn
 res://Hurtbox&Hitbox/hitbox.tscn
 res://Hurtbox&Hitbox/hurtbox.tscn
 res://world.tscn
-res://Enemies/bat.gd
 res://Player/Player.gd
+res://Hurtbox&Hitbox/hitbox.gd
 res://Player/SwordHitbox.gd
