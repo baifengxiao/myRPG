@@ -1,10 +1,11 @@
-[gd_scene load_steps=14 format=3 uid="uid://d3vd88otjli4q"]
+[gd_scene load_steps=16 format=3 uid="uid://d3vd88otjli4q"]
 
 [ext_resource type="Texture2D" uid="uid://blrmmbnx0tc8e" path="res://Enemies/Bat.png" id="1_bsio1"]
 [ext_resource type="Script" path="res://Enemies/bat.gd" id="1_x2efj"]
 [ext_resource type="Texture2D" uid="uid://tq5u46wr4b65" path="res://Shadows/SmallShadow.png" id="2_hsm27"]
-[ext_resource type="PackedScene" uid="uid://ce21sjmc7nbof" path="res://Hurtbox&Hitbox/hurtbox.tscn" id="3_crbpd"]
+[ext_resource type="PackedScene" uid="uid://ce21sjmc7nbof" path="res://Overlap/hurtbox.tscn" id="3_crbpd"]
 [ext_resource type="PackedScene" uid="uid://c1o7ngi3kpfkf" path="res://stats.tscn" id="5_inmal"]
+[ext_resource type="PackedScene" uid="uid://bhxdqur4q5v5t" path="res://Enemies/PlayerDetectionZone.tscn" id="6_1s12x"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_caqle"]
 atlas = ExtResource("1_bsio1")
@@ -56,12 +57,15 @@ radius = 5.09902
 radius = 8.0
 height = 22.0
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_acs5p"]
+radius = 105.546
+
 [node name="Bat" type="CharacterBody2D"]
 collision_layer = 16
 collision_mask = 3
 script = ExtResource("1_x2efj")
 
-[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_xoagb")
 animation = &"Fly"
 autoplay = "Fly"
@@ -76,6 +80,7 @@ shape = SubResource("CircleShape2D_0w8hq")
 
 [node name="Hurtbox" parent="." instance=ExtResource("3_crbpd")]
 collision_layer = 8
+show_hit = false
 
 [node name="CollisionShape2D" parent="Hurtbox" index="0"]
 position = Vector2(0, -16)
@@ -84,7 +89,14 @@ shape = SubResource("CapsuleShape2D_uouny")
 [node name="Stats" parent="." instance=ExtResource("5_inmal")]
 max_health = 2
 
+[node name="PlayerDetectionZone" parent="." instance=ExtResource("6_1s12x")]
+
+[node name="CollisionShape2D" parent="PlayerDetectionZone" index="0"]
+modulate = Color(1, 1, 1, 0.505882)
+shape = SubResource("CircleShape2D_acs5p")
+
 [connection signal="area_entered" from="Hurtbox" to="." method="_on_hurtbox_area_entered"]
 [connection signal="no_health" from="Stats" to="." method="_on_stats_no_health"]
 
 [editable path="Hurtbox"]
+[editable path="PlayerDetectionZone"]

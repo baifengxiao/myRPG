@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Player/Player.gd" id="1_wkf4e"]
 [ext_resource type="Texture2D" uid="uid://yxrgdm8cri1i" path="res://Player/Player.png" id="2_lpdbd"]
-[ext_resource type="PackedScene" uid="uid://jw77yms8der4" path="res://Hurtbox&Hitbox/hitbox.tscn" id="3_nrqmu"]
+[ext_resource type="PackedScene" uid="uid://jw77yms8der4" path="res://Overlap/hitbox.tscn" id="3_nrqmu"]
 [ext_resource type="Script" path="res://Player/SwordHitbox.gd" id="4_f4o36"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ttmws"]

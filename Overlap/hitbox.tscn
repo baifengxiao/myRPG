@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://jw77yms8der4"]
 
-[ext_resource type="Script" path="res://Hurtbox&Hitbox/hitbox.gd" id="1_bdnwv"]
+[ext_resource type="Script" path="res://Overlap/hitbox.gd" id="1_bdnwv"]
 
 [node name="Hitbox" type="Area2D"]
 collision_layer = 8
